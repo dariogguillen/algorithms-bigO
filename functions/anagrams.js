@@ -15,7 +15,6 @@ O(N) * O(C) // C corresponde al numero de caracteres de la palabra mas larga y N
 
 const aCode = "a".charCodeAt(0);
 const getAnagrams = (arr = []) => {
-
   const getHash = (str = "") => {
     const letterCount = new Array(26).fill(0);
     str.split("").forEach((char) => {
